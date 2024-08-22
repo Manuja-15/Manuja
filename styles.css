@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px; /* Adjust as needed */
+    gap: 10px; /* Space between boxes */
+}
+
+.box {
+    flex: 1 1 calc(33.333% - 10px); /* 3 boxes per row, minus gap */
+    background-color: #4CAF50;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px; /* Adjust as needed */
+    font-size: 24px;
+    border-radius: 5px;
+}
